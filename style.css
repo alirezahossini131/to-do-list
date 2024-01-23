@@ -1,0 +1,51 @@
+header,main,footer{
+    margin-left: 30%;
+}
+header{
+    margin-top: 50px;
+    max-width: 550px;
+    height: 130px;
+    text-align: center;
+}
+header input{
+    width: 100%;
+    height: 35px;
+}
+header h1{
+    color: #206de0;
+}
+main{
+    max-width: 550px;
+
+}
+ul{
+    width: 100%;
+    padding-left: 0;
+}
+li{
+    width: 100%;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0;
+    margin: 14px 0;
+}
+.delete-btn{
+    background: #206de0;
+    padding: 6px;
+    border-radius: 6px;
+}
+.input-group-prepend,
+  .input-group-append {
+    display: -ms-flexbox;
+    display: flex;
+  }
+  footer{
+    max-width: 550px;
+}
+footer .send{
+    width: 90%;
+}
+.white{
+    color: white;
+}
